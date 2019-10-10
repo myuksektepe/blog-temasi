@@ -1,0 +1,544 @@
+/* Fonts */
+/* Gilroy */
+/*
+@font-face {
+    font-family: 'Gilroy';
+    font-display: swap;
+    src: url('../fonts/gilroy/Gilroy-Bold.eot');
+    src: url('../fonts/gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gilroy/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/gilroy/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/gilroy/Gilroy-Bold.ttf') format('truetype'),
+    url('../fonts/gilroy/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-display: swap;
+    src: url('../fonts/gilroy/Gilroy-SemiBold.eot');
+    src: url('../fonts/gilroy/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gilroy/Gilroy-SemiBold.woff2') format('woff2'),
+    url('../fonts/gilroy/Gilroy-SemiBold.woff') format('woff'),
+    url('../fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype'),
+    url('../fonts/gilroy/Gilroy-SemiBold.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-display: swap;
+    src: url('../fonts/gilroy/Gilroy-Medium.eot');
+    src: url('../fonts/gilroy/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gilroy/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/gilroy/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/gilroy/Gilroy-Medium.ttf') format('truetype'),
+    url('../fonts/gilroy/Gilroy-Medium.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+*/
+
+/* Graphik */
+/*
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Thin.eot);
+    src: local('Graphik Thin'), local('Graphik-Thin'), url(../fonts/graphik/Graphik-Thin.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Thin.woff2) format('woff2'), url(../fonts/graphik/Graphik-Thin.woff) format('woff'), url(../fonts/graphik/Graphik-Thin.ttf) format('truetype'), url(../fonts/graphik/Graphik-Thin.svg#Graphik-Thin) format('svg');
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Light.eot);
+    src: local('Graphik Light'), local('Graphik-Light'), url(../fonts/graphik/Graphik-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Light.woff2) format('woff2'), url(../fonts/graphik/Graphik-Light.woff) format('woff'), url(../fonts/graphik/Graphik-Light.ttf) format('truetype'), url(../fonts/graphik/Graphik-Light.svg#Graphik-Light) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+*/
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Regular.eot);
+    src: local('Graphik Regular'), local('Graphik-Regular'), url(../fonts/graphik/Graphik-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Regular.woff2) format('woff2'), url(../fonts/graphik/Graphik-Regular.woff) format('woff'), url(../fonts/graphik/Graphik-Regular.ttf) format('truetype'), url(../fonts/graphik/Graphik-Regular.svg#Graphik-Regular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Medium.eot);
+    src: local('Graphik-Medium'), url(../fonts/graphik/Graphik-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Medium.woff2) format('woff2'), url(../fonts/graphik/Graphik-Medium.woff) format('woff'), url(../fonts/graphik/Graphik-Medium.ttf) format('truetype'), url(../fonts/graphik/Graphik-Medium.svg#Graphik-Medium) format('svg');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Semibold.eot);
+    src: local('Graphik Semibold'), local('Graphik-Semibold'), url(../fonts/graphik/Graphik-Semibold.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Semibold.woff2) format('woff2'), url(../fonts/graphik/Graphik-Semibold.woff) format('woff'), url(../fonts/graphik/Graphik-Semibold.ttf) format('truetype'), url(../fonts/graphik/Graphik-Semibold.svg#Graphik-Semibold) format('svg');
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Bold.eot);
+    src: local('Graphik Bold'), local('Graphik-Bold'), url(../fonts/graphik/Graphik-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Bold.woff2) format('woff2'), url(../fonts/graphik/Graphik-Bold.woff) format('woff'), url(../fonts/graphik/Graphik-Bold.ttf) format('truetype'), url(../fonts/graphik/Graphik-Bold.svg#Graphik-Bold) format('svg');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(../fonts/graphik/Graphik-Black.eot);
+    src: local('Graphik Black'), local('Graphik-Black'), url(../fonts/graphik/Graphik-Black.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Black.woff2) format('woff2'), url(../fonts/graphik/Graphik-Black.woff) format('woff'), url(../fonts/graphik/Graphik-Black.ttf) format('truetype'), url(../fonts/graphik/Graphik-Black.svg#Graphik-Black) format('svg');
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Graphik Super';
+    src: url(../fonts/graphik/Graphik-Super.eot);
+    src: local('Graphik Super'), local('Graphik-Super'), url(../fonts/graphik/Graphik-Super.eot?#iefix) format('embedded-opentype'), url(../fonts/graphik/Graphik-Super.woff2) format('woff2'), url(../fonts/graphik/Graphik-Super.woff) format('woff'), url(../fonts/graphik/Graphik-Super.ttf) format('truetype'), url(../fonts/graphik/Graphik-Super.svg#Graphik-Super) format('svg');
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/fontawesome/fa-brands-400.eot);
+    src: url(../fonts/fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(../fonts/fontawesome/fa-brands-400.woff) format("woff"), url(../fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(../fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/fontawesome/fa-light-300.eot);
+    src: url(../fonts/fontawesome/fa-light-300.eot?#iefix) format("embedded-opentype"), url(../fonts/fontawesome/fa-light-300.woff2) format("woff2"), url(../fonts/fontawesome/fa-light-300.woff) format("woff"), url(../fonts/fontawesome/fa-light-300.ttf) format("truetype"), url(../fonts/fontawesome/fa-light-300.svg#fontawesome) format("svg")
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands"
+}
+
+.fal {
+    font-weight: 300
+}
+
+.fal, .far {
+    font-family: "Font Awesome 5 Pro"
+}
+
+.far {
+    font-weight: 400
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900
+}
+
+body {
+    background-color: #f2f6fa;
+    /*font-family: 'Gilroy', sans-serif;*/
+    font-family: 'Graphik', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    min-height: 1px;
+    height: auto;
+}
+
+a {
+    color: #2b2b2b;
+}
+
+a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Owl */
+.owl-stage-outer {
+    -webkit-box-shadow: 0 22px 24px rgba(49, 51, 57, 0.2);
+    -moz-box-shadow: 0 22px 24px rgba(49, 51, 57, 0.2);
+    box-shadow: 0 22px 24px rgba(49, 51, 57, 0.2);
+    border-radius: 15px;
+}
+
+.owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+}
+
+.owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+.owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+
+.owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791;
+}
+
+/* Globals */
+.section-title {
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+/* Header */
+header {
+    background: #fff;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header .logo {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    font-size: 21px;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header .links {
+    float: right;
+    line-height: 70px;
+}
+
+header .links ul {
+    list-style-type: none;
+}
+
+header .links ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+header .links ul li a {
+    padding: 5px;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+header .links ul li a:hover {
+    opacity: .8;
+}
+
+section.body {
+}
+
+/* Headline */
+.headline {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffcc00;
+    min-height: 250px;
+    padding: 40px 0 120px;
+    color: #1f1f1f;
+    box-shadow: 0px -2px 10px -1px #ffcc00;
+}
+
+.headline .container {
+    position: relative;
+    z-index: 1;
+}
+
+.headline .image {
+    position: absolute;
+    width: 100%;
+    float: left;
+    /* z-index: -1; */
+    overflow: hidden;
+    height: 100%;
+    top: 0;
+    opacity: .1;
+    display: flex;
+    align-items: center;
+}
+
+.headline .image img {
+    width: 100%;
+}
+
+.headline .title {
+    position: relative;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 36px !important;
+    margin-bottom: 10px;
+}
+
+.headline .description {
+    font-size: 15px;
+}
+
+/* Last Post */
+.last-posts {
+    position: relative;
+    margin-top: -70px;
+}
+
+.last-posts .area {
+    overflow: hidden;
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.last-posts .area .row {
+    align-items: center;
+}
+
+.last-posts .area .text {
+    padding: 25px 0 25px 25px;
+}
+
+.last-posts .area .text h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3 !important;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.last-posts .area a.category {
+    background: #af8a7d;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-right: 3px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.last-posts .area .image {
+    overflow: hidden;
+    max-height: 280px;
+    position: relative;
+}
+
+.last-posts .area .image:before {
+    background: url(../images/center-wave.svg);
+    background-size: cover;
+    background-position: center;
+    width: 41px;
+    height: 101%;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    z-index: 1;
+}
+
+.last-posts .area .image img {
+    width: 100%;
+    object-fit: cover;
+    height: 280px;
+    transition: all .3s;
+}
+
+.last-posts .area:hover .image img {
+    transform: scale(1.1);
+}
+
+.last-posts::after {
+    clear: both;
+}
+
+
+.posts {
+    position: relative;
+    margin: 20px 0;
+}
+
+.posts .post-box {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin: 15px 0;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px -2px rgba(49, 51, 57, 0.2);
+    -moz-box-shadow: 0 2px 3px -2px rgba(49, 51, 57, 0.2);
+    box-shadow: 0 2px 3px -2px rgba(49, 51, 57, 0.2);
+    transition: all .3s;
+}
+
+.posts .post-box a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.posts .post-box .image {
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+.posts .post-box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s;
+}
+
+.posts .post-box .content {
+    float: left;
+    width: calc(100% - 120px);
+    padding: 10px;
+}
+
+.posts .post-box .title {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3a3a3a;
+    margin-bottom: 5px;
+}
+
+.posts .post-box:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ffcc00;
+    -webkit-transition: ease-out .7s;
+    transition: ease-out .7s;
+}
+
+.posts .post-box .description {
+    color: #242424;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.posts .post-box .date {
+    font-size: 10px;
+    color: #808080;
+}
+
+.posts .post-box:hover {
+    -webkit-box-shadow: 0 3px 11px rgba(49, 51, 57, 0.2);
+    -moz-box-shadow: 0 3px 11px rgba(49, 51, 57, 0.2);
+    box-shadow: 0 3px 11px rgba(49, 51, 57, 0.2);
+}
+
+.posts .post-box:hover .title {
+    color: #000;
+}
+
+.posts .post-box:hover:after {
+    width: 100%;
+}
+
+.posts .post-box:hover .image img {
+    width: 105%;
+    height: 105%;
+}
+
+
+.categories {
+}
+
+.categories .category {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    border-bottom: 1px dashed #dfdfdf;
+}
+
+.categories .category .name {
+    float: left;
+    width: 80%;
+}
+
+.categories .category .post-count {
+    float: left;
+    width: 20%;
+    text-align: right;
+    opacity: .7;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    header .links {
+        display: none;
+    }
+
+    .last-posts .area .text {
+        padding: 15px;
+    }
+
+    .last-posts .area .image, .last-posts .area .image img {
+        height: 100px
+    }
+
+    .last-posts .area .image:before {
+        display: none;
+    }
+
+    .section-title {
+        text-align: center
+    }
+}
