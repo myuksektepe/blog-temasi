@@ -11,7 +11,7 @@ $(function() {
         }
     });
 
-    $(".last-posts .owl-carousel").owlCarousel({
+    $(".last-posts-slider .owl-carousel").owlCarousel({
         items:1,
         lazyLoad:true,
         loop:true,
@@ -20,6 +20,24 @@ $(function() {
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
-        smartSpeed:1300
+        smartSpeed:1000
+    });
+
+    $(".most-viewed-posts .owl-carousel").owlCarousel({
+        items:3,
+        loop:false,
+        margin:15,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2
+            },
+            1000:{
+                items:4
+            },
+        }
     })
 });

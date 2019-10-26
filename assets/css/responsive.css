@@ -1,0 +1,55 @@
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    body{
+        padding-top: 60px;
+    }
+    header{
+        min-height: 60px;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+        -webkit-box-shadow: 0 22px 24px rgba(49, 51, 57, 0.2);
+        -moz-box-shadow: 0 22px 24px rgba(49, 51, 57, 0.2);
+        box-shadow: 0 22px 24px rgba(49, 51, 57, 0.2);
+    }
+    header .logo{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    header .links {
+        display: none;
+    }
+    .section-title {
+        text-align: center
+    }
+    .last-posts .area .text {
+        padding: 15px;
+    }
+    .last-posts .area .image, .last-posts .area .image img {
+        height: 100px
+    }
+    .last-posts .area .image:before {
+        display: none;
+    }
+    .posts .post-box{
+        height: 100px;
+        margin: 10px 0;
+    }
+    .posts .post-box .title{
+        font-size: 14px;
+    }
+    .last-posts-slider .area .text{
+        padding: 15px;
+    }
+    .last-posts-slider .area .image:before{
+        display: none;
+    }
+    .last-posts-slider .area .image img{
+        height: 130px;
+    }
+    .most-viewed-posts .post-box{
+        width: calc(100% - 30px);
+    }
+}

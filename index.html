@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <title>Document</title>
+    <title>Vira Blog | Teknoloji, Yazılım, Tasarım</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @-webkit-keyframes scale-in-center {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            50% {
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        @keyframes scale-in-center {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            50% {
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+    </style>
 </head>
 <body>
 <!-- Preloading -->
 <div class="preloading"
-     style="display:flex;align-items:center;position:fixed;width:100%;height:100vh;overflow:hidden;background:#f8f8f8;z-index:999">
-    <img src="assets/images/logo-1.png" alt="Site Name" style="margin:auto;width:150px">
+     style="display:flex;align-items:center;position:fixed;width:100%;height:100vh;overflow:hidden;background:#f8f8f8;z-index:999;">
+    <img src="assets/images/logo-1.png" alt="Site Name"
+         style="margin:auto;width:150px;-webkit-animation:scale-in-center 1.5s ease-in-out both infinite;animation: scale-in-center 1.5s ease-in-out both infinite;">
 </div>
 <header>
     <div class="container">
         <div class="logo">
             <a href="#">
-                <strong>algoritma</strong>.co
+                <strong>vira</strong>blog.
                 <!--                    <img src="assets/images/logo-1.png" alt="Algoritma Bilişim">-->
             </a>
         </div>
@@ -65,7 +97,7 @@
                  loading="lazy">
         </div>
     </div>
-    <div class="last-posts">
+    <div class="last-posts-slider">
         <div class="container">
             <div class="owl-carousel">
                 <div class="area">
@@ -140,7 +172,7 @@
             </div>
         </div>
     </div>
-    <div class="posts">
+    <div class="last-posts alt">
         <div class="container">
             <div class="row">
                 <!-- Last Posts -->
@@ -148,128 +180,419 @@
                     Son Gönderiler
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a class="post-box" href="#">
+                    <div class="post-box">
                         <div class="image">
-                            <img src="http://placeimg.com/640/489/any" alt="Başlık 1">
+                            <img src="http://placeimg.com/626/481/any" alt="Başlık 1">
                         </div>
                         <div class="content">
-                            <div class="title">
+                            <a class="title" href="#">
                                 İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
-                            </div>
+                            </a>
                             <p class="description" hidden>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
                             <div class="date">
                                 4 Gün Önce
                             </div>
+                            <div class="category">
+                                Yazılım
+                            </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a class="post-box" href="#">
+                    <div class="post-box">
                         <div class="image">
-                            <img src="http://placeimg.com/643/480/any" alt="Başlık 1">
+                            <img src="http://placeimg.com/649/481/any" alt="Başlık 1">
                         </div>
                         <div class="content">
-                            <div class="title">
+                            <a class="title" href="#">
                                 İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
-                            </div>
+                            </a>
                             <p class="description" hidden>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
                             <div class="date">
                                 4 Gün Önce
                             </div>
+                            <div class="category">
+                                Yazılım
+                            </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a class="post-box" href="#">
+                    <div class="post-box">
                         <div class="image">
-                            <img src="http://placeimg.com/642/480/any" alt="Başlık 1">
+                            <img src="http://placeimg.com/643/481/any" alt="Başlık 1">
                         </div>
                         <div class="content">
-                            <div class="title">
+                            <a class="title" href="#">
                                 İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
-                            </div>
+                            </a>
                             <p class="description" hidden>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
                             <div class="date">
                                 4 Gün Önce
                             </div>
+                            <div class="category">
+                                Yazılım
+                            </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a class="post-box" href="#">
+                    <div class="post-box">
                         <div class="image">
-                            <img src="http://placeimg.com/640/481/any" alt="Başlık 1">
+                            <img src="http://placeimg.com/640/487/any" alt="Başlık 1">
                         </div>
                         <div class="content">
-                            <div class="title">
+                            <a class="title" href="#">
                                 İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
-                            </div>
+                            </a>
                             <p class="description" hidden>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
                             <div class="date">
                                 4 Gün Önce
                             </div>
+                            <div class="category">
+                                Yazılım
+                            </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a class="post-box" href="#">
+                    <div class="post-box">
                         <div class="image">
-                            <img src="http://placeimg.com/754/280/any" alt="Başlık 1">
+                            <img src="http://placeimg.com/640/483/any" alt="Başlık 1">
                         </div>
                         <div class="content">
-                            <div class="title">
+                            <a class="title" href="#">
                                 İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
-                            </div>
+                            </a>
                             <p class="description" hidden>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
                             <div class="date">
                                 4 Gün Önce
                             </div>
+                            <div class="category">
+                                Yazılım
+                            </div>
                         </div>
-                    </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="post-box">
+                        <div class="image">
+                            <img src="http://placeimg.com/640/480/any" alt="Başlık 1">
+                        </div>
+                        <div class="content">
+                            <a class="title" href="#">
+                                İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                            </a>
+                            <p class="description" hidden>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                            <div class="date">
+                                4 Gün Önce
+                            </div>
+                            <div class="category">
+                                Yazılım
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Categories -->
-    <div class="col-md-3">
-        <div class="row">
-            <div class="section-title">
-                Kategoriler
-            </div>
-            <div class="col-md-12">
+    <div class="container">
+        <div class="row mt-5">
+            <!-- Categories -->
+            <div hidden class="col-md-3">
+                <div class="row">
+                    <div class="section-title">
+                        Kategoriler
+                    </div>
+                </div>
                 <div class="categories">
                     <a class="category" href="#" title="Kategori Adı">
-                                    <span class="name">
-                                        Kategori Adı
-                                    </span>
+                        <span class="name">
+                            Teknoloji
+                        </span>
                         <span class="post-count">
-                                        27
-                                    </span>
+                            21
+                        </span>
                     </a>
                     <a class="category" href="#" title="Kategori Adı">
-                                    <span class="name">
-                                        Kategori Adı 2
-                                    </span>
+                        <span class="name">
+                            Yazılım
+                        </span>
                         <span class="post-count">
-                                        19
-                                    </span>
+                            27
+                        </span>
                     </a>
+                    <a class="category" href="#" title="Kategori Adı">
+                        <span class="name">
+                            İlk'ler ve En'ler
+                        </span>
+                        <span class="post-count">
+                            270
+                        </span>
+                    </a>
+                    <a class="category" href="#" title="Kategori Adı">
+                        <span class="name">
+                            Tasarım
+                        </span>
+                        <span class="post-count">
+                            19
+                        </span>
+                    </a>
+                    <a class="category" href="#" title="Kategori Adı">
+                        <span class="name">
+                            Algoritma
+                        </span>
+                        <span class="post-count">
+                            11
+                        </span>
+                    </a>
+                    <a class="category" href="#" title="Kategori Adı">
+                        <span class="name">
+                            SEO
+                        </span>
+                        <span class="post-count">
+                            36
+                        </span>
+                    </a>
+                    <a class="category" href="#" title="Kategori Adı">
+                        <span class="name">
+                            Minimalizm
+                        </span>
+                        <span class="post-count">
+                            18
+                        </span>
+                    </a>
+                    <a class="category" href="#" title="Kategori Adı">
+                        <span class="name">
+                            Sanat
+                        </span>
+                        <span class="post-count">
+                            72
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <!-- Most Viewed -->
+            <div class="col-md-12 most-viewed-posts alt">
+                <div class="row">
+                    <div class="section-title">
+                        Teknoloji
+                    </div>
+                    <div class="owl-carousel">
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/649/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/649/487/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/653/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/653/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/653/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="section-title">
+                        Yazılım
+                    </div>
+                    <div class="owl-carousel">
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/649/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/649/487/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/653/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/653/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-box">
+                            <div class="image">
+                                <img src="http://placeimg.com/653/481/any" alt="Başlık 1">
+                            </div>
+                            <div class="content">
+                                <a class="title" href="#">
+                                    İlham Alacağınız Yaratıcı Dijital Pazarlama Örnekleri
+                                </a>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                                <div class="date">
+                                    4 Gün Önce
+                                </div>
+                                <div class="category">
+                                    Yazılım
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
 <footer>
 </footer>
@@ -285,30 +608,7 @@
 <script async src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
 <!-- App Css & JS -->
 <link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
 <script async src="assets/js/app.js"></script>
-
-<!--<link rel="stylesheet" href="assets/plugins/lightpick/lightpick.css">-->
-<!--<script src="assets/plugins/lightpick/moment.min.js"></script>-->
-<!--<script src="assets/plugins/lightpick/lightpick.js"></script>-->
-<!--<script>-->
-<!--    var picker = new Lightpick({-->
-<!--        field: document.getElementById('datepicker'),-->
-<!--        singleDate: false,-->
-<!--        numberOfMonths: 2,-->
-<!--        minDate: moment(),-->
-<!--        locale: {-->
-<!--            tooltip: {-->
-<!--                one: 'gün',-->
-<!--                other: 'gün',-->
-<!--            },-->
-<!--        },-->
-<!--        onSelect: function (start, end) {-->
-<!--            var str = '';-->
-<!--            str += start ? start.format('Do MMMM YYYY') + ' to ' : '';-->
-<!--            str += end ? end.format('Do MMMM YYYY') : '...';-->
-<!--            document.getElementById('dates').innerHTML = str;-->
-<!--        }-->
-<!--    });-->
-<!--</script>-->
 </body>
 </html>
